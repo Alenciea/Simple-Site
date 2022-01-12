@@ -1,0 +1,178 @@
+* {
+    list-style: none;
+    padding: 0;
+    margin: 0px;
+    list-style-type: none;
+    justify-content: center;
+}
+
+.kapyayici {
+    width: 1200px;
+    height: 970px;
+    margin: auto;
+    background-color: black;
+}
+
+.menu {
+    float: left;
+    width: 1200px;
+    background: #383838;
+}
+
+.text {
+    font-size: 80;
+    margin-left: 40px;
+}
+
+.menu ul {
+    height: 20px;
+    margin-left: 775px;
+    margin-top: -70px;
+    background: #383838;
+    list-style: none;
+}
+
+.menu li {
+    display: inline;
+}
+
+.menu a {
+    display: block;
+    float: left;
+    height: 30px;
+    padding: 10px 15px 15px 15px;
+    border-top: 5px solid #383838;
+    text-decoration: none;
+    font-family: arial black;
+    font-weight: bold;
+    color: #ffffff;
+}
+
+.menu a:hover {
+    background: #DCDCDC;
+    border-top-color: #1A7196;
+    color: #000000;
+}
+
+.menu .active a {
+    background: #FFA800;
+    border-top-color: #000000;
+}
+
+.menu a b {
+    text-decoration: underline;
+}
+
+.banner {
+    width: 1200px;
+    height: 90px;
+    color: white;
+    margin: auto;
+    background-color: #383838;
+}
+
+.yansol {
+    width: 700px;
+    height: 400px;
+    float: left;
+    background-color: #383838;
+    margin-left: 0px;
+}
+
+.yansag {
+    width: 490px;
+    height: 400px;
+    background-color: #ffe100;
+    margin-left: 710px;
+}
+
+.solalt {
+    width: 400px;
+    height: 450px;
+    margin-left: 0px;
+    margin-right: 15px;
+    float: left;
+}
+
+.ortalti {
+    width: 400px;
+    height: 450px;
+    margin-right: 15px;
+    margin-left: 770px;
+    float: left;
+}
+
+.sagalt {
+    width: 380px;
+    margin-left: 820px;
+    height: 450px;
+}
+
+.kapsa {
+    width: 491px;
+    height: 200;
+    background-color: #ffe100;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+.kapsa-2 {
+    width: 491px;
+    height: 185px;
+}
+
+.helo1 {
+    width: 130px;
+    border: inset 5px black;
+    margin-bottom: 15px;
+    margin-left: 15px;
+    float: left;
+    height: 130px;
+    transition: 1.0;
+    background-color: cyan;
+}
+
+.helo1:hover {
+    border: inset 5px goldenrod;
+    transform: scale(1.05);
+}
+
+.helo2 {
+    width: 130px;
+    border: inset 5px black;
+    margin-bottom: 15px;
+    margin-left: 190px;
+    height: 130px;
+    float: left;
+    background-color: cyan;
+}
+
+.helo2:hover {
+    border: inset 5px brown;
+    transform: scale(1.05);
+}
+
+.helo3 {
+    width: 130px;
+    border: inset 5px black;
+    margin-bottom: 15px;
+    margin-left: 180px;
+    height: 130px;
+    background-color: cyan;
+}
+
+.helo3:hover {
+    border: inset 5px greenyellow;
+    transform: scale(1.05);
+}
+
+button:hover {
+    text-decoration: none;
+    border: inset 5px yellow;
+    color: yellow;
+}
+
+button a:hover {
+    text-decoration: none;
+    color: white;
+}
